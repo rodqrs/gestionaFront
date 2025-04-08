@@ -1,0 +1,20 @@
+.container__iv{
+  --spacing: 32px;
+  flex: 1;
+  display: flex;
+  font-family: var(--roboto);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing);
+  color: var(--accent-text-2);
+}
+
+.container__iv__title{
+  font-family: var(--ubuntu);
+}
+
+.container__iv__description{
+  text-align: center;
+  padding: 0.5rem 0;
+}

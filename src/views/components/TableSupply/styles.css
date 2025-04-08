@@ -1,0 +1,79 @@
+.inventory-table {
+    margin-top: 1rem;
+    width: 100%;
+    border-radius: 1rem;
+    border-collapse: collapse;
+}
+
+.inventory-table th{
+    padding: 1rem;
+    text-align: left;
+    border-bottom: thin solid var(--gray-color);
+}
+.inventory-table td{
+    padding: 10px;
+    padding-bottom: 25px; 
+    border-bottom: thin solid var(--gray-color);
+}
+
+.inventory-table tfoot td{
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+    border-top: thin solid var(--accent-dark);
+    text-align: center;
+}
+
+.actions{
+    text-align: center;
+}
+.actions {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+@media (max-width:1024px){
+    /* Estilo tabla */
+    .inventory-table{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        outline: none;
+    }
+    .inventory-table thead{
+        display: none;
+    }
+    .inventory-table tbody tr:nth-child(even){
+        background-color:var(--gray-interactive-component-1);
+    
+    }
+    .inventory-table tr{
+        display: block;
+        border-top: 1px solid var(--accent-dark);
+    }
+    .inventory-table td{
+        display: block;
+        text-align: right;
+        position: relative;
+        padding-left: 50%;
+    }
+    /* NUEVAS CABECERAS */
+    .inventory-table tbody td::before{
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        width: 50%;
+        padding-left: 15px;
+        font-weight: bold;
+        text-align: left;
+    }
+    .inventory-table .actions{
+        margin-left:auto ;
+        margin-right: auto;
+    }
+    .inventory-table tfoot td{
+        padding: 0;
+        text-align: center;
+    }
+}

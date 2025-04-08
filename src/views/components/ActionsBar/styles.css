@@ -1,0 +1,20 @@
+.add-search-section{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.add-search-section div{
+    cursor: pointer;
+    /* border-radius: 999999999px; */
+}
+
+.add-search-section svg{
+    border-radius: 99px;
+}
+.add-search-section svg:hover{
+    box-shadow: 0 0 2px 2px var(--accent-interactive-componente-3);
+  }
+  
+.add-search-section svg:active{
+    box-shadow: 0 0 9px 2px var(--accent-border-separator-3);
+  }

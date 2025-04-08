@@ -1,0 +1,37 @@
+.project-card__container {
+ display: flex;
+ align-items: center;
+ width: 70%;
+}
+
+.project-card,
+.project-card:visited {
+ text-decoration: none;
+ color: var(--accent-text-2);
+}
+
+.project-card {
+ width: 95%;
+ height: fit-content;
+ display: flex;
+ align-items: center;
+ gap: 1rem;
+ padding: 0.5rem;
+}
+.project-card__container:hover {
+ background-color: var(--accent-background-2);
+ border-radius: 10px;
+}
+
+.project-card__initials {
+ width: 50px;
+ aspect-ratio: 1;
+ text-align: center;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: var(--accent-interactive-componente-3);
+ font-family: var(--ubuntu);
+ border-radius: 10px;
+ font-size: var(--heading-2);
+}

@@ -1,0 +1,15 @@
+.crop__header{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 2rem;
+  font-family: var(--roboto);
+  color: var(--accent-text-2);
+}
+
+.crop__backButton{
+  position: absolute;
+  left: 2rem;
+}

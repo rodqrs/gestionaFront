@@ -1,0 +1,16 @@
+.home-view {
+  background-color: var(--color-fondo);
+  display: flex;
+  font-family: var(--ubuntu);
+  margin: 0;
+  overflow: hidden;
+}
+
+.sales-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  overflow: hidden;
+  font-family: var(--roboto);
+}

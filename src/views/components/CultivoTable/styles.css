@@ -1,0 +1,15 @@
+.cultivo-table {
+  margin-top: 80px;
+  width: 90%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  border: 1px solid #c2dfdc;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.cultivo-table th,
+.cultivo-table td {
+  vertical-align: middle;
+}

@@ -1,0 +1,133 @@
+/* Estilo general del modal */
+.modal.add-user {
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px;
+  width: 600px;
+  border: none;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  font-family: Arial, sans-serif;
+}
+
+/* Título del modal */
+.add-user__title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: center;
+  color: #223322; /* Color oscuro para el texto */
+  margin-bottom: 20px;
+}
+
+/* Botón de cerrar el modal */
+.modal__close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.modal__close--icon::before {
+  content: "✕"; /* Icono de cerrar */
+  font-size: 1.5rem;
+  color: #666;
+}
+
+/* Etiquetas del formulario */
+.form__label {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #223322;
+  margin-bottom: 8px;
+  display: block;
+}
+
+/* Inputs del formulario */
+.form__input {
+  width: 100%;
+  padding: 10px 15px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form__input:focus {
+  border-color: #1da889;
+  outline: none;
+  box-shadow: 0px 0px 5px rgba(29, 168, 137, 0.5);
+}
+
+/* Selects del formulario */
+.form__select {
+  appearance: none;
+  background: #fff;
+  cursor: pointer;
+}
+
+/* Botones */
+.primary-button {
+  display: inline-block;
+  width: 30%;
+  padding: 12px;
+  background-color: #1da889;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.primary-button:hover {
+  background-color: #129b7d;
+}
+
+/* Contenedor de botones */
+.form__container-buttons {
+  text-align: center;
+}
+
+/* Mensajes de error estilizados */
+.error-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: #f8d7da; 
+  border: 1px solid #f5c6cb; 
+  color: #721c24; 
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  margin-top: -10px;
+  margin-bottom: 15px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Icono de advertencia dentro del mensaje de error */
+.error-box::before {
+  content: "⚠️"; 
+  font-size: 1.2rem;
+  margin-right: 10px;
+}
+
+.error-box {
+  animation: fadeIn 0.3s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

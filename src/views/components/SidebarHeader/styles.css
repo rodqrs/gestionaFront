@@ -1,0 +1,51 @@
+.sidebar__header {
+  align-items: center;
+  border-bottom: var(--border) solid var(--accent-border-separator-1);
+  color: var(--accent-text-1);
+  display: flex;
+  font-family: var(--ubuntu) !important;
+  font-size: var(--heading-1) !important;
+  font-weight: var(--bold) !important;
+  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding);
+}
+.sidebar__header a {
+  display: flex;
+  text-decoration: none;
+  color: inherit;
+}
+.sidebar__header,
+.sidebar__header a {
+  gap: var(--gap);
+}
+
+.header__slogan {
+  text-align: center;
+}
+
+.slogan__description {
+  font-size: var(--min-text);
+}
+
+.header__icon {
+  cursor: pointer;
+}
+
+.header__icon {
+  width: var(--icon-width);
+  height: var(--icon-height);
+  background-repeat: no-repeat;
+}
+
+.header__icon:hover {
+  background-color: var(--accent-interactive-componente-3);
+  border-radius: 50%;
+}
+
+@media (max-height: 580px) {
+  .sidebar__header {
+    padding: 5px var(--padding) !important;
+  }
+}

@@ -1,0 +1,75 @@
+.season-popup-bg{
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 0, 0,50%);
+}
+
+.season-popup-delete{
+  width: 480px;
+  height: 160px;
+  background-color: #FFF;
+  border-radius: 5px;
+}
+
+.season-popup-delete header{
+  border-bottom: thin solid #e4e4e4;
+}
+
+.season-popup-delete h4{
+  margin: 15px;
+  color: #3a3434;
+}
+
+.season-popup-delete header{
+  height: 60px;
+  display: flex;
+  align-items: center;
+  color: #3a3434;
+}
+
+.season-popup-delete section{
+  display: flex;
+  justify-content: flex-start;
+}
+.season-popup-delete p{
+  margin: 15px;
+}
+
+.season-delete-btn-bar{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  border-top: thin solid #e4e4e4;
+}
+
+.season-delete-btn-bar button{
+  width: 20%;
+  height: 30px;
+  margin: 7px;
+  margin-bottom: 0;
+  padding: 2px;
+  border-radius: 3px;
+  border: none;
+} 
+
+.season-delete-btn-submit{
+  background-color: var(--accent-text-1);
+  color: #FFF;
+}
+
+.season-delete-btn-submit:active{
+  background-color: var(--accent-text-2);
+} 
+.season-delete-btn-cancel{
+  background-color: #e4e4e4;
+  color: black;
+}
+.season-delete-btn-cancel:active{
+  background-color: #b1b0b0;
+}

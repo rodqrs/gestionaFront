@@ -1,0 +1,31 @@
+.sidebar__option {
+  display: flex;
+  flex-direction: column;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 3px;
+  gap: var(--padding);
+  padding: 10px 5px;
+}
+
+.sidebar__option:hover {
+  outline: var(--border) solid var(--accent-border-separator-2);
+}
+
+.option__link {
+  text-decoration: none;
+}
+
+.option__link:visited {
+  color: inherit;
+}
+
+.option__link--text{
+  color: var(--accent-text-2);
+}
+
+@media (max-height: 580px){
+  .sidebar__option{
+    padding: 5px;
+  }
+}

@@ -1,0 +1,83 @@
+.primary-button__component {
+  font-family: var(--roboto);
+  font-size: var(--body-text);
+  font-style: normal;
+  border-color: transparent;
+  background-color: transparent;
+  cursor: pointer;
+  background-color: var(--accent-color);
+  color: var(--accent-background-1);
+  margin-top: 1rem;
+  box-sizing: border-box;
+  padding: 5px;
+  font-weight: var(--medium);
+  border: 1px solid var(--gray-border-separator-3);
+  border-radius: 5px;
+}
+
+.primary-button__component:hover {
+  background-color: var(--accent-dark);
+  color: var(--accent-background-2);
+}
+.secondary-button {
+  font-family: var(--roboto);
+  font-size: var(--body-text);
+  font-style: normal;
+  border-color: transparent;
+  background-color: transparent;
+  cursor: pointer;
+  background-color: var(--secondary-color);
+  color: var(--accent-background-1);
+  box-sizing: border-box;
+  padding: 5px;
+  font-weight: var(--medium);
+  border: 1px solid var(--gray-border-separator-3);
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+
+.secondary-button:hover {
+  background-color: var(--secondary-color-dark);
+  color: var(--accent-background-2);
+}
+
+.close-button {
+  background-color: transparent;
+  border-color: transparent;
+  cursor: pointer;
+}
+
+.delete-button,
+.edit-button {
+  all: unset;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.edit-button:hover {
+  box-shadow: 0 0 9px 2px var(--accent-interactive-componente-3);
+}
+.delete-button:hover {
+  box-shadow: 0 0 9px 2px #e9adad;
+}
+
+.logout-button {
+  align-items: center;
+  all: unset;
+  border-radius: 3px;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: flex;
+  gap: var(--padding);
+  height: var(--option-height);
+  padding: 10px 5px;
+  width: 100%;
+}
+
+.logout-button:hover {
+  outline: var(--border) solid var(--accent-border-separator-2);
+}
+
+.logout-button__text{
+  color: var(--accent-text-2);
+}

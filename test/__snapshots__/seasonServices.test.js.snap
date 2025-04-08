@@ -1,0 +1,50 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Servicios de Temporadas > createSeason debe crear una nueva temporada 1`] = `
+{
+  "duracion": "30 días",
+  "fecha_fin": "2024-01-31",
+  "fecha_inicio": "2024-01-01",
+  "id": "1",
+  "nombre": "Nueva Temporada",
+}
+`;
+
+exports[`Servicios de Temporadas > deleteSeason debe eliminar una temporada 1`] = `
+{
+  "success": true,
+}
+`;
+
+exports[`Servicios de Temporadas > editSeason debe actualizar una temporada existente 1`] = `
+{
+  "id": "season-123",
+  "nombre": "Temporada Actualizada",
+}
+`;
+
+exports[`Servicios de Temporadas > fetchCropSeasons debe obtener temporadas por cultivo 1`] = `
+[
+  {
+    "duracion": "30 días",
+    "fecha_fin": "2024-01-31",
+    "fecha_inicio": "2024-01-01",
+    "id": 1,
+    "id_cultivo": "crop-123",
+    "id_season": "season-1",
+    "nombre": "Temporada 1",
+  },
+]
+`;
+
+exports[`Servicios de Temporadas > fetchSeasons debe obtener todas las temporadas 1`] = `
+[
+  {
+    "duracion": "30 días",
+    "fecha_fin": "2024-01-31",
+    "fecha_inicio": "2024-01-01",
+    "id": "1",
+    "nombre": "Temporada 1",
+  },
+]
+`;

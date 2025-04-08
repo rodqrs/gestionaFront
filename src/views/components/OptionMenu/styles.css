@@ -1,0 +1,16 @@
+.option-menu__title {
+  color: var(--accent-text-1);
+  font-size: 2rem;
+  font-weight: var(--bold);
+  text-align: center;
+  margin-block: 2rem;
+}
+
+.option-menu__sections {
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+  justify-content: center;
+  gap: 1.5rem;
+  padding-inline: 1.5rem;
+}

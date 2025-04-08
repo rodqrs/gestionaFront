@@ -1,0 +1,101 @@
+.sidebar p,
+.sidebar h1,
+.sidebar div
+{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+.sidebar h2{
+    margin: 0;
+}
+
+.sidebar,
+.sidebar__account,
+.sidebar__overwiew {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar {
+    --border: 1px;
+    --icon-width: 24px;
+    --icon-height: 24px;
+    --padding: 16px;
+    --option-height: 46px;
+    --gap: 5px;
+    background-color: var(--accent-background-2);
+    box-sizing: border-box;
+    box-shadow: 0 0 1rem var(--gray-color);
+    border-radius: 0 10px 10px 0;
+    font-family: var(--roboto);
+    font-weight: var(--medium);
+    height: 100vh;
+    width: 286px;
+    transition: all 3s ease;
+}
+
+.sidebar,
+.sidebar__overwiew{
+    min-height: min-content;
+}
+
+.sidebar__account
+{
+    border-bottom: var(--border) solid var(--accent-border-separator-1);
+
+}
+
+.sidebar__overwiew{
+    padding-inline: var(--padding);
+}
+.sidebar__account {
+    padding: var(--padding);
+}
+
+.sidebar li{
+    height: var(--option-height);
+}
+
+.sidebar__overwiew {
+    height: max-content;
+    justify-content: center;
+    margin-block: auto;
+}
+.sidebar__account{
+    border-top: var(--border) solid var(--accent-border-separator-1);
+}
+
+.sidebar--hidden :is(
+    .header__slogan, 
+    .option__link--text,
+    .profile__username,
+    .profile__email,
+    #sidebar-close,
+    )
+{
+    display: none;
+}
+.sidebar--hidden .sidebar__label{
+    visibility: hidden;
+    width: 0px;
+    height: var(--body-text);
+}
+.sidebar--hidden .sidebar__footer{
+    gap: 0;
+    justify-content: center;
+}
+
+.sidebar--hidden{
+    transition: all 5s ease;
+    width: fit-content !important;
+}
+.sidebar--hidden :is(
+    .sidebar__account,
+    .sidebar__overwiew,
+){
+    align-items: center;
+}

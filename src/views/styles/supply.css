@@ -1,0 +1,17 @@
+.supply-view{
+    display: flex;
+}
+
+.supply-main-view{
+    flex: 1;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    font-family: var(--ubuntu)
+}
+
+.supply-actions-btn{
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: space-evenly; */
+}

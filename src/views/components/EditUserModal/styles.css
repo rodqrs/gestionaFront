@@ -1,0 +1,158 @@
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  background-color: #fff; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); 
+  border: #129b7d;
+  width: 450px; 
+  padding: 20px 30px;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+.edit-user {
+  flex-direction: column;
+  gap: 20px;
+}
+
+.edit-user h2 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #1b1b1b;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.edit-user__form label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.edit-user__form input,
+.edit-user__form select {
+  width: 100%;
+  padding: 10px;
+  font-size: 0.95rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #ffffff;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box;
+}
+
+.edit-user__form input::placeholder {
+  color: #bbb;
+}
+
+.edit-user__form input:focus,
+.edit-user__form select:focus {
+  border-color: #1da889; /* Color al enfocar */
+  outline: none;
+  background-color: #fff;
+}
+
+.edit-user__form button {
+  display: block;
+  margin-left: 40%;
+  width: 30%;
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #1da889;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: center;
+}
+
+.edit-user__form button:hover {
+  background-color: #129b7d; 
+}
+
+.edit-user__form .close-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: #666;
+  transition: color 0.3s ease;
+}
+
+.edit-user__form .close-btn:hover {
+  color: #333; 
+}
+
+/* Botón de cerrar con diseño */
+.modal__close--edit {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #999;
+  border: none;
+}
+
+.modal__close--edit:hover {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.modal__close--icon::before {
+  content: "×"; 
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+/* Mensajes de error estilizados */
+.error-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: #f8d7da; /* Fondo rojo claro */
+  border: 1px solid #f5c6cb; /* Borde rojo tenue */
+  color: #721c24; /* Texto rojo oscuro */
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  margin-top: -10px;
+  margin-bottom: 15px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Icono de advertencia dentro del mensaje de error */
+.error-box::before {
+  content: "⚠️"; /* Emoji de advertencia */
+  font-size: 1.2rem;
+  margin-right: 10px;
+}
+/* Animación de aparición */
+.error-box {
+  animation: fadeIn 0.3s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,24 @@
+.filter-select__container__select {
+  padding: 5px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+  width: 100%; 
+}
+
+.filter-select__title{
+  font-family: var(--roboto);
+  font-weight: 500;
+  color: var(--accent-text-1);
+  font-size: clamp(1rem, 1.8vw, 1.3rem);
+}
+.filter-select{
+  flex: 1; 
+  max-width: fit-content;
+  min-width: fit-content;
+  box-sizing: border-box; 
+  margin: 0 10px; 
+}

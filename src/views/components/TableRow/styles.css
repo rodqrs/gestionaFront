@@ -1,0 +1,17 @@
+.actions {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.actions .action-icon {
+  cursor: pointer;
+  width: 20px; /* Ajusta el tamaño del ícono */
+  height: 20px; /* Ajusta el tamaño del ícono */
+  fill: #065e52; /* Color inicial del ícono */
+  transition: fill 0.3s ease;
+}
+
+.actions .action-icon:hover {
+  fill: #01352f; /* Color del ícono al hacer hover */
+}

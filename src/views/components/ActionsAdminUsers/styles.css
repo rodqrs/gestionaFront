@@ -1,0 +1,8 @@
+.add-search-section{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.add-search-section div{
+    cursor: pointer;
+}

@@ -1,0 +1,12 @@
+.sidebar__label {
+  color: var(--gray-text-1);
+}
+.sidebar__list{
+  list-style: none;
+  margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}

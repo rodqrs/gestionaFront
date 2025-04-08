@@ -1,0 +1,31 @@
+.activities__container{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  overflow: hidden;
+  font-family: var(--roboto);
+}
+
+.activities__header{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 2rem;
+  font-family: var(--roboto);
+  color: var(--accent-text-2);
+}
+
+.activities__backButton{
+  position: absolute;
+  left: 2rem;
+}
+.activities__actions{
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  margin-block: 1rem;
+  padding-right: 1rem;
+}

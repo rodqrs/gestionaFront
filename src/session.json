@@ -1,0 +1,24 @@
+{
+    "id": "c30191dc-6ef3-4d1e-98c0-a5c656cf3096",
+    "email": "jane.doe@correo.com",
+    "nombre": "Jane Doe",
+    "projectId": "e31c6f97-3c28-4a44-ad32-c626d71b9a28",
+    "projectsByUser": [
+      {
+        "id" : "Id del proyecto",
+        "nombre": "nombre del proyecto",
+        "crops": [
+          {
+            "id": "id de los cultivos",
+            "nombre": "nombre de los cultivos",
+            "seasons" : [
+              {
+                "id": "Id de la temporada",
+                "nombre": "nombre de la temporada"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+}

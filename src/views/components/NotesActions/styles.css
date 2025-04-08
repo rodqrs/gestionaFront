@@ -1,0 +1,23 @@
+.notes-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.notes {
+  width: 15%;
+  height: 6vh;
+  background-color: var(--color-principal);
+  padding-top: .5rem;
+  text-align: center;
+  font-weight: 500;
+  color: #FFF;
+  border-radius: 1rem;
+}
+
+.create-find {
+  text-decoration: none;
+  font-size: 2rem;
+  color: #000;
+}
+
+  

@@ -1,0 +1,109 @@
+.crop-modal{
+  border-radius: var(--radius);
+  border: var(--border) solid var(--gray-color);
+  box-shadow: 0 0 1rem var(--gray-color);
+  color: var(--accent-text-2);
+  font-family: var(--roboto);
+  height: fit-content;
+  left: 50%;
+  position: fixed;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.crop-modal__container{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  width: 400px;
+  padding: 1rem;
+}
+
+.crop-modal__form{
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 100%;
+}
+
+.crop-modal__form__inputs{
+  display: grid;
+}
+.crop-modal__form__inputs--area{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding-top: 1rem;
+}
+
+.crop-modal__form__label{
+  padding: 1rem 0 10px;
+}
+
+.crop-modal__form__label::after{
+  margin-left: 0.2rem;
+  content: "*";
+  color: var(--secondary-color);
+}
+
+.crop-modal__form__input {
+  font-family: var(--roboto);
+  font-size: var(--body-text);
+  font-style: normal;
+  color: var(--accent-text-2);
+  box-sizing: border-box;
+  resize: none;
+  height: 2rem;
+}
+
+.crop-modal__form__input::placeholder {
+  color: var(--gray-border-separator-3);
+}
+
+.crop-modal__form__input:focus {
+  outline: none;
+  box-shadow: 0 0 4px var(--accent-color);
+}
+.crop-modal__form__input,
+.crop-modal__form__input:focus {
+  width: 100%;
+  padding: 10px;
+  font-weight: var(--medium);
+  border: 1px solid var(--gray-border-separator-3);
+  border-radius: 5px;
+}
+
+.crop-modal__form__buttons{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: end;
+  gap: 1rem;
+}
+
+.crop-modal__form__buttons button{
+  width: 120px;
+  height: 2rem;
+}
+
+.crop-modal__btn-close{
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+}
+
+.area-label{
+  min-width: 120px;
+  white-space: nowrap;
+}
+
+.crop-modal__form__units{
+  height: 2rem;
+  border-radius: 5px;
+  min-width: 120px;
+  border: 1px solid var(--gray-border-separator-3);
+
+}
+

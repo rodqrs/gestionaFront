@@ -1,0 +1,25 @@
+.crop__home-view{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+.crop-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  overflow: hidden;
+  font-family: var(--roboto);
+}
+
+.crop__content{
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.crop__content__actions{
+  display: flex;
+  justify-content: end;
+}

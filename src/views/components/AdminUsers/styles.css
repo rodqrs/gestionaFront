@@ -1,0 +1,50 @@
+.admin-user {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.admin-user__header h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #4b4b4b;
+  margin-bottom: 30px;
+}
+
+
+.actions button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  margin: 0 5px;
+  color: #1da889;
+}
+
+.actions .delete-button {
+  color: #e63946;
+}
+
+.add-user-button {
+  display: inline-block;
+  margin-left: 40%;
+  width: 10;
+  padding: 12px;
+  background-color: #1da889;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-user-button:hover {
+  background-color: #129b7d;
+}
+
+
+

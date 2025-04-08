@@ -1,0 +1,17 @@
+.btnAdd{
+  all: unset;
+  display: inline-block;
+  cursor: pointer;
+  aspect-ratio: 1;
+  width: fit-content;
+  border-radius: 999999px;
+  display: flex;
+}
+
+.btnAdd:hover{
+  box-shadow: 0 0 9px 2px var(--accent-interactive-componente-3);
+}
+
+.btnAdd:active{
+  box-shadow: 0 0 9px 2px var(--accent-border-separator-3);
+}

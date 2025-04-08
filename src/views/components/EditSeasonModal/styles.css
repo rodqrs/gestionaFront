@@ -1,0 +1,123 @@
+.supply-popup-bg{
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 0, 0,50%);
+}
+
+.season-popup-edit{
+  width: 500px;
+  height: 390px;
+  background-color: #FFF;
+  border-radius: 5px;
+}
+
+.season-popup-edit h4{
+  margin: 15px;
+  color: #3a3434;
+}
+
+
+.season-form-edit{
+  height: 380px;
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: space-evenly;
+  border-top: thin solid #e4e4e4;
+}
+
+.season-form-edit div:not(:last-child){
+  width: 50%;
+}
+
+.season-form-edit input,.season-form-edit label, .season-form-edit select {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  display: block;
+  border-radius: 3px;
+  color: #3a3434;
+} 
+
+.season-form-edit span{
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  display: block;
+  font-size: 0.8rem;
+  color: tomato;
+}
+
+.season-form-edit input{
+  margin-bottom: 7px;
+  padding: 7px;
+  border: thin solid #e4e4e4;
+  background-color: #FFF;
+}
+
+.season-form-edit select{
+  margin-bottom: 7px;
+  padding: 7px;
+  border: thin solid #e4e4e4;
+  background-color: #FFF;
+}
+
+.btn-bar{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  border-top: thin solid #e4e4e4;
+}
+
+.btn-1,.btn-2{
+  width: 50%;
+}
+
+.btn-2{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn-submit, .btn-cancel, .btn-end{
+  width: 30%;
+  height: 30px;
+  margin: 7px;
+  margin-bottom: 0;
+  padding: 2px;
+  border-radius: 3px;
+  border: none;
+}
+
+.btn-end{
+  width: 100px;
+  margin-left: 12px;
+  background-color: red;
+  color: #FFF;
+}
+
+.btn-end:active{
+  background-color: rgb(75, 2, 2);
+}
+
+.btn-submit{
+  background-color: var(--accent-text-1);
+  color: #FFF;
+}
+
+.btn-submit:active{
+  background-color: var(--accent-text-2);
+} 
+.btn-cancel{
+  background-color: #e4e4e4;
+  color: black;
+}
+.btn-cancel:active{
+  background-color: #b1b0b0;
+}

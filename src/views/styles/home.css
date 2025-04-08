@@ -1,0 +1,26 @@
+:root {
+  --color-principal: var(--accent-color);
+  --color-fondo: var(--accent-background-1);
+}
+
+.home-view {
+  background-color: var(--color-fondo);
+  display: flex;
+  font-family: var(--ubuntu);
+  margin: 0;
+  overflow: hidden;
+}
+
+.page-container {
+  padding: var(--padding-container) 0;
+  overflow-y: auto;
+  flex: 1;
+  height: 100vh;
+}
+
+.home__change-button {
+  position: absolute;
+  right: var(--padding-container);
+  top: var(--padding-container);
+  margin-top: 0;
+}
