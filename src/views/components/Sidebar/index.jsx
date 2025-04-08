@@ -2,7 +2,7 @@ import ActivityIcon from '../icons/ActivityIcon';
 import CropIcon from '../icons/CropIcon';
 import DashboardIcon from '../icons/DashboardIcon';
 import InformationIcon from '../icons/InformationIcon';
-import InventoryIcon from '../icons/inventoryIcon';
+import InventoryIcon from '../icons/InventoryIcon';
 // import ProductionIcon from '../icons/ProductionIcon';
 import SaleIcon from '../icons/SaleIcon';
 import SeasonIcon from '../icons/SeasonIcon';
