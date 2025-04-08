@@ -2,7 +2,7 @@ import "./styles/sales.css";
 import Sidebar from "./components/Sidebar";
 import SalesHeader from "./components/SalesHeader";
 import SalesBody from "./components/SalesBody";
-import InsertSalesModal from "./components/insertSalesModal";
+import InsertSalesModal from "./components/InsertSalesModal";
 import { useRef, useEffect, useState } from "react";
 import { getCropsByProjectId } from "../utils/getCropsByProjectId";
 import { deleteSale, getSaleByIdSeason } from "../services/saleService";
