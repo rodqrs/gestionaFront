@@ -48,7 +48,8 @@ export const formLoginTexts = {
   password: "Contraseña",
   login: "Iniciar Sesión",
 };
-export const API_URL = "http://localhost:3000/api/v1";
+export const API_URL = "https://gestionaapi.onrender.com/api/v1";
+export const API_URL_LOCAL = "http://localhost:3000/api/v1";
 export const PROJECTS_PATH = "/projects";
 export const USERS_PATH = "/users";
 export const LOGIN_PATH = "/login";

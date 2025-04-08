@@ -1,7 +1,8 @@
 import { API_URL } from "../utils/const"
-const url = "http://localhost:3000/api/v1/seasons"
-const urlCrops = "http://localhost:3000/api/v1/crops"
-const urlNews = "http://localhost:3000/api/v1/news"
+const url = `${API_URL}/seasons`;
+const urlCrops = `${API_URL}/crops`;
+const urlNews = `${API_URL}/news`;
+
 
 //GET ALL SEASON
 export async function fetchSeasons() {

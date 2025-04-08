@@ -1,11 +1,12 @@
 import getUserData from "../utils/getUserData";
+import { API_URL } from "../utils/const";
 
-const URL = "http://localhost:3000/api/v1/supplies"
-const URL_UNITS = "http://localhost:3000/api/v1/units"
-const URL_CATEGORIES = "http://localhost:3000/api/v1/categories"
-const URL_INVENTORIES = "http://localhost:3000/api/v1/inventories"
-const URL_INVENTORY = "http://localhost:3000/api/v1/inventory/"
-const URL_PROJECT = "http://localhost:3000/api/v1/project/"
+const URL = `${API_URL}/supplies`;
+const URL_UNITS = `${API_URL}/units`;
+const URL_CATEGORIES = `${API_URL}/categories`;
+const URL_INVENTORIES = `${API_URL}/inventories`;
+const URL_INVENTORY = `${API_URL}/inventory/`;
+const URL_PROJECT = `${API_URL}/project/`;
 
 //GET ALL SUPLLIES
 export async function fetchSupplies() {

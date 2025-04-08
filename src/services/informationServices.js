@@ -1,15 +1,17 @@
+import { API_URL } from "../utils/const";
+
 export async function getInformation() {
   const urls = {
-    expenses: "http://localhost:3000/api/v1/expenses",
-    sales: "http://localhost:3000/api/v1/sales",
-    production: "http://localhost:3000/api/v1/product",
-    supplies: "http://localhost:3000/api/v1/supplies",
-    activitiesManagement: "http://localhost:3000/api/v1/activities-management",
-    units: "http://localhost:3000/api/v1/units",
-    activities: "http://localhost:3000/api/v1/activities",
-    projects: "http://localhost:3000/api/v1/projects",
-    crops: "http://localhost:3000/api/v1/crops",
-    seasons: "http://localhost:3000/api/v1/seasons",
+    expenses: `${API_URL}/expenses`,
+    sales: `${API_URL}/sales`,
+    production: `${API_URL}/product`,
+    supplies: `${API_URL}/supplies`,
+    activitiesManagement: `${API_URL}/activities-management`,
+    units: `${API_URL}/units`,
+    activities: `${API_URL}/activities`,
+    projects: `${API_URL}/projects`,
+    crops: `${API_URL}/crops`,
+    seasons: `${API_URL}/seasons`,
   };
 
   try {
