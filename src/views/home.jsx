@@ -5,7 +5,7 @@ import ActivityIcon from './components/icons/ActivityIcon';
 import CropIcon from './components/icons/CropIcon';
 import DashboardIcon from './components/icons/DashboardIcon';
 import InformationIcon from './components/icons/InformationIcon';
-import InventoryIcon from './components/icons/inventoryIcon';
+import InventoryIcon from './components/icons/InventoryIcon';
 import SaleIcon from './components/icons/SaleIcon';
 import SeasonIcon from './components/icons/SeasonIcon';
 import OptionMenu from './components/OptionMenu';
